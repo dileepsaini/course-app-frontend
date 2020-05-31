@@ -26,6 +26,7 @@ h1{
      background-attachment: fixed;
      background-position: center;
      z-index: -1;
+     
      background: linear-gradient(309deg, #2fded4, #1daca4, #b44bdb, #8768e6);
     background-size: 800% 800%;
 
