@@ -22,20 +22,20 @@ const Header =()=>{
 
  
     return (
-   <div className="col-12 p-0">
+   <div className="col-12 p-0" style={{position:"fixed",zIndex:999}}>
 
   
-     <nav className="navbar navbar-expand-lg navbar-light " style={{backgroundColor:'rgba(112,208,229,0.5)'}}>
+     <nav className="navbar navbar-expand-lg navbar-light " style={{backgroundColor:'	rgba(228, 129, 203,0.5)'}}>
        <a className="navbar-brand font-weight-bold text-dark" >FTV Salon Academy</a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
        <span className="navbar-toggler-icon"></span>
        </button>
-     <div className="collapse navbar-collapse" id="navbarNav">
-      <ul className="navbar-nav">
+     <div className="collapse navbar-collapse " id="navbarNav">
+      <ul className="navbar-nav " style={{textAlign:"center",margin:"0 auto",fontSize:"x-large",}}>
        
-        <li className="nav-item active" key ="1">
-         <Link to="/" className="nav-link" >Home <span className="sr-only">(current)</span></Link>
+        <li className="nav-item active " key ="1">
+         <Link to="/" className="nav-link " >Home <span className="sr-only">(current)</span></Link>
          </li>
        
         <li className="nav-item dropdown" key ="2">

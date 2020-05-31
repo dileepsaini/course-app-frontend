@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react';
 import Base from './base';
 import {Link} from 'react-router-dom';
 import Firebase from '../firebase';
-import styled from 'styled-components';
+
 
 import '../styles/signup.css';
 
